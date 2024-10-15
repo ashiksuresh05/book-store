@@ -1,0 +1,261 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /* font-family: "Edu AU VIC WA NT Hand", cursive; */
+    font-size: large;
+
+}
+header
+{
+    width: 100%;
+    height: 60px;
+    justify-content: space-between;
+    display: flex;
+    background-color:whitesmoke;
+    position: sticky ;
+    top: 0px;
+    z-index: 1;
+
+}
+header UL
+{
+    display: flex;
+    margin: 20px;
+    text-decoration: none;
+    color: black;
+    
+    
+}
+header ul li  {
+    
+    margin: 10px;
+    list-style-type: none;
+    color: black;
+}
+header ul li :hover {
+    color: black;
+
+}
+header ul li a :hover 
+{
+   color:black;
+}
+header img 
+{
+    width: 35px;
+    height: 30px;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap');
+header ul li a{
+    text-decoration: none;
+    text-shadow: 6px 9px 7px whitesmoke;
+}
+#banner{
+    width: 100%;
+    height: 1000px;
+    background-size: cover;
+    background-image: url(https://www.aprilsmith.org/uploads/6/8/3/4/6834889/published/learn-coding-online.jpg?1529008030);
+
+}
+#welcome
+{
+    
+    position: absolute;
+    top: 60%;
+    left:40%;
+    border: 10px yellow solid;
+    text-align: center;
+    padding: 100px;
+    color: aliceblue;
+    
+    
+}
+.row 
+{
+    width: 100%;
+    height: 600px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    border: 4px black solid
+}
+
+.col
+{
+    width: 600px;
+    height: 500px;
+   color: black;
+    margin-top: 50px;
+
+}
+.col1
+{
+    background-image:url(https://www.computercareers.org/wp-content/uploads/be-a-Programmer.jpg);
+    background-size: cover;
+}
+.col2 p{
+    align-items: center;
+    margin-top: 250px;
+    margin-left: 200px;
+    font-size: 30px;
+   
+
+}
+#aboutus2
+{
+    margin-top: 0px;
+    padding: 25px;
+    text-align: center;
+    border: 2px solid black;
+}
+.rows{
+    width: 100%;
+    height: 600px;
+    background-color: whitesmoke;
+    display:flex;
+    justify-content: space-around;
+}
+.colus
+{
+    width:600px ;
+    height:500px ;
+    text-align: center;
+    text-align: justify;
+    padding: 10px;
+}
+.coluss{
+    width:600px ;
+    height:500px ;
+    margin: 10px;
+    background-image:url(https://cdnp0.stackassets.com/01c894abd767eeb67848e7013540f9ef279b057d/store/dc06048932542a74772449e9434b1822c9590fd002416e4f717f903df7bc/product_31121_product_shots1.jpg);
+}
+.colus h3{
+    text-align: center;
+}
+
+.colus p{
+    padding: 15px;
+}
+#sec3
+{
+    width: 100%;
+    height: 500px;
+}
+
+
+#sec3.col3
+{
+    width: 100px;
+    height: 1000px;
+    background-color: blue;
+
+}.row2{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+}
+.row3{
+    width: 400px;
+    height: 600px;
+
+}
+.row3 img{
+    height:350px;
+    width: 300px;
+
+
+}
+.flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-box-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+#sec4
+{
+    width: 100%;
+    height: 800px;
+    background-color: whitesmoke;
+    
+}
+.row4{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: space-around;
+
+}
+ .col4{
+    width: 300px;
+    height: 500px;
+    margin: 35px;
+    border: 2px solid black;
+    background-color:lightgrey;
+    padding: 70px;
+    padding-top: 20px;
+    justify-content: center;
+  
+    
+   
+
+}
+.col4 img{
+    width: 150px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid black;
+
+    
+}
+.col4 p{
+    text-align: justify;
+}
+#sec5 h1
+{
+    text-align: center;
+    margin: 1px;
+    padding: 40px;
+    border: 4px solid black;
+}
+
+
